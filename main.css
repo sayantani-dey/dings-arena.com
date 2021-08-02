@@ -1,0 +1,135 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15px;
+    background-color: rgb(229, 252, 253);
+}
+
+li,a, button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    color: darkgoldenrod;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    transition: 0.3s ease background-color;
+    text-shadow: darkgrey;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color:darkcyan;
+}
+button,
+button:after,
+button:before{
+    transition: all .5s;
+}
+button:hover{
+    color:cadetblue;
+}
+header{
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:100%;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a :hover{
+    color: seagreen;
+}
+button{ 
+    padding: 9px 25px;
+    background-color: lightcoral;
+    color: azure;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+h1{
+    color:teal;
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    clear: both;
+    color: goldenrod;
+}
+h3{
+    color: indianred;
+}
+img{
+    width: 100%;
+    margin: 0px;
+}
+.row {
+    clear: both;
+}
+.col {
+    float: left;
+    margin: 15px;
+    width: 25%;
+    padding: 20px;
+    font-size: 150%;
+    background-color: rgb(120, 204, 71);
+    border-radius: 15px;
+    color: whitesmoke;
+}
+.col a,
+.col a:after,
+.col a:before {
+  transition: all .5s;
+}
+.col a:hover {
+  color:darkcyan;
+}
+p{
+    color:green;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 50px 0px 50px;
+}
+footer{
+    background-color: lightsteelblue;
+    color: darkslategrey;
+    margin: 0px;
+    padding: 20px;
+}
+.text{
+    display: list-item;
+    color:goldenrod;
+    font-size: 30px;
+    font-style: normal;
+    font-family: serif;
+}
+.list {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: list-item;
+    padding: 0%;
+    margin: 20px;
+    color: salmon;
+}
+.quotes{
+    color: goldenrod;
+}
